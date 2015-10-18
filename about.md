@@ -1,11 +1,6 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Hakkımda
+permalink: /hakkimda/
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Matematik mezunu, _Atatürk Üniversitesi_'nden. _Akçaabat_'ta yaşıyor. Kitap okumayı seviyor, tembellikten kurtulmak için çabalıyor. Bilgisayarla hep içli dışlı oldu, **Debian** kullanıcısı, _Linux_'u seviyor, _GNU EMACS_ ile _LATEX_ yazmaya çalışıyor. _Sabit Nokta Teorisi_  konusunda yüksek lisans yapıyor. [MATH.SE](https://math.stackexchange.com) kullanıcısı, aktif sayılmaz.
