@@ -13,3 +13,35 @@ github_username:  hakanergul
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+excerpt_separator: <!--more-->
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude: ["README.md"]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
