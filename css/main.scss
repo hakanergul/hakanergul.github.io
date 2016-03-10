@@ -3,49 +3,48 @@
 ---
 @charset "utf-8";
 
+@import "syntax";
 
-
-// Our variables
-$base-font-family: "Georgia", "Palatino", serif;
-$base-font-size:   18px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #000;
-$background-color: #fdfdfd;
-$brand-color:      #669933;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+// navbar
+$navbar-skip: 70px;
+body {
+  padding-top: $navbar-skip;
 }
 
+// so that anchors work correctly
+// http://stackoverflow.com/a/9618795
+.target:before {
+  content: "";
+  display: block;
+  height: $navbar-skip;
+  margin: -$navbar-skip 0 0;
+}
 
+.post-meta {
+  display: block;
+  margin-top: -.3rem;
+  color: #9a9a9a;
+}
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+.post-header {
+  margin-bottom: 2rem;
+}
+
+// unstyled links
+.link-unstyled {
+  color: inherit;
+  text-decoration: inherit;
+}
+.link-unstyled:hover {
+  color: inherit;
+}
+
+// anchor-js
+.anchorjs-link {
+  color: #FF5231;
+  text-decoration: none;
+}
+.anchorjs-link:hover {
+  color: #2500AD;
+  text-decoration: none;
+}
