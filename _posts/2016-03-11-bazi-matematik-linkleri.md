@@ -1,5 +1,5 @@
 ---
-title: Bazi Matematik Linkleri
+title: Bazı Matematik Linkleri
 updated: 2016-03-11 23:51
 ---
 
@@ -7,7 +7,7 @@ updated: 2016-03-11 23:51
 + [MATH.StackExchange](http://math.stackexchange.com)
 + [Mathoverflow](http://mathoverflow.com)
 + [Cambridge Math. Dep.](https://www.dpmms.cam.ac.uk/study/)
-+ [Oxford Mathematical Institute | Courses](http://www0.maths.ox.ac.uk/courses)
++ [Oxford Mathematical Institute - Courses](http://www0.maths.ox.ac.uk/courses)
 + [The Archimedeans - Lecture Notes](http://www.archim.org.uk/notes.php)
 + [AMS Notices](http://ams.org/notices)
 + [AMS Grad Blog](http://blogs.ams.org/mathgradblog/)
