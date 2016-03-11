@@ -1,12 +1,6 @@
 ---
 layout: page
-title: About
+title: Hakkımda
 ---
 
-Hello.
-
-The main purpose of this theme is to be as simple as it could be, so you can focus on writing your stuffs. This is your About page. You may describe about yourself here; who you are, what are you currently doing, share some of your projects, your social links and how people can contact you, etc.
-
-**Just write thing that matters..**
-
-Enjoy!
+Matematik mezunu, _Atatürk Üniversitesi_'nden. Kitap okumayı seviyor, tembellikten kurtulmak için çabalıyor. **Debian** kullanıcısı, _Linux_'u seviyor, _GNU EMACS_ ile _LATEX_ yazmaya çalışıyor. _Sabit Nokta Teorisi_  konusunda yüksek lisans yapıyor. [MATH.SE](https://math.stackexchange.com) kullanıcısı, aktif sayılmaz.
