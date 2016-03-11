@@ -10,7 +10,7 @@ author_email:       hknrgl@gmail.com
 
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
-permalink:          /notes/:title # Post permalink
+permalink:          /:title # Post permalink
 timezone:           Asia/Istanbul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Site Build
