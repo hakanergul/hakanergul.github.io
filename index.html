@@ -2,57 +2,21 @@
 layout: default
 ---
 
-<div class="home">
+<section>
+	<ul>
 
-  <h1 class="page-heading">Girdiler</h1>
+		{% for post in site.posts %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date_to_long_string }}</span>
+		<li>
+			<div class="post-date">
+				<span>{{ post.date | date: "%b %d, %Y" }}</span>
+			</div>
+			<div class="title">
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</div>
+		</li>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+		{% endfor %}
 
-
-</div>
-
-
-
-<div class="posts">
-  {% for post in paginator.posts %}
-    <div class="post_item">
-      <div class="post_title">
-      	<div id="post_title">
-      		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      	</div>
-      	<div id="date">
-      		{{ post.date | date: "%A, %d %B %Y" }}
-      	</div>
-     </div>
-      <hr>
-      <div id="post">{{ post.content }}</div>
-  	</div>
-  {% endfor %}
-  <div class="post_item">&nbsp;</div>
-  <div class="post_item">
-  	<div class="date">
-  		&nbsp;
-  	</div>
-  	<div class="link">
-      {% if paginator.page < paginator.total_pages %}
-      <a href="/page{{ paginator.next_page }}"><- Daha Eski</a>
-      {% endif %}
-      &nbsp;  &nbsp;
-      {% if paginator.page == 2 %}
-      <a href="/">Daha Yeni -></a>
-      {% elsif paginator.page > 2 %}
-      <a href="/page{{ paginator.previous_page }}">Daha Yeni -></a>
-      {% endif %}
-  	</div>
-  </div>
-</div>
+	</ul>
+</section>
