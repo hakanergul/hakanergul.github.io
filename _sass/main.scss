@@ -336,9 +336,9 @@ section {
         text-transform: uppercase;
       }
       @media (min-width: 992px) {a {
-          border-bottom: 1px dashed #000;
+          
           &:hover {
-            border-color: #000;
+            border-bottom: 1px dashed #000;
           }
         }
       }
