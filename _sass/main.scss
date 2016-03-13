@@ -135,6 +135,7 @@ span[data-note] {
     box-sizing: border-box;
     &:hover,
     &:focus {
+      border: 5px solid #000;
       background: #f14e32;
     }
     &:hover + .logo-prompt,
