@@ -319,13 +319,17 @@ section {
         text-overflow: ellipsis !important;
         white-space: nowrap !important;
         word-wrap: normal !important;
-      }
-      a {
+        a {
         text-decoration: none;
         border: 0;
         color: #000;
         box-sizing: border-box;
+       }
+       a:hover{
+         border-bottom: 2px dashed #000;
+       }
       }
+      
       .post-date {
         float: right;
         margin: 0 0 0 20px;
@@ -336,11 +340,6 @@ section {
         letter-spacing: 1px;
         text-transform: uppercase;
       }
-      a:hover {
-            border-bottom: 1px dashed #000;
-          }
-        
-
     }
   }
 }
