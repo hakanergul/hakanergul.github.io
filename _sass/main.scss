@@ -249,6 +249,15 @@ iframe {
 article {
   max-width: 500px;
   margin: 0 auto;
+  a {
+    text-decoration: none;
+    border: 0;
+    color: #000;
+    &:hover,
+    &:focus {
+      color: #65855D;
+    }
+  }
   .title {
     line-height: 1.4em;
     text-align: center;
