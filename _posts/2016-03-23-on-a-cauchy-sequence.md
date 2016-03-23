@@ -1,6 +1,6 @@
 ---
 title: On a Cauchy Sequence
-updated: 2016-03-23 16:12
+updated: 2016-03-23 16:02
 ---
 
 
