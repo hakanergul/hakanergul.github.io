@@ -1,5 +1,5 @@
 ---
-title: mathjax-denemesi
+title: Mathjax Denemesi
 updated: 2016-03-11 18:21
 ---
 
