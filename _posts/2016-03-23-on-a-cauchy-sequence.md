@@ -1,5 +1,5 @@
 ---
-title: On a Cauchy Sequence
+title: on-a-cauchy-sequence
 updated: 2016-03-23 16:02
 ---
 
