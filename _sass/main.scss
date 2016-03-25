@@ -249,16 +249,11 @@ iframe {
 article {
   max-width: 500px;
   margin: 0 auto;
-<<<<<<< HEAD
    a {
     background: #ddd url("gravatar_wrapper.png");
     color: #ff0ff0;
-=======
-  a {
->>>>>>> 23061e326570d152fe55b2b8bd9b8581baa76d50
     text-decoration: none;
     border: 0;
-    color: #000;
     &:hover,
     &:focus {
       color: #65855D;
