@@ -23,3 +23,5 @@ https://terrytao.wordpress.com/career-advice/
 **http://www.mualphatheta.org/index.php?math-resources/math-log-archive**
 
 **http://promys.org/resources**
+
+**http://www.math.uh.edu/~tomforde/gradstudents.html**
