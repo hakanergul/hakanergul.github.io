@@ -25,3 +25,5 @@ https://terrytao.wordpress.com/career-advice/
 **http://promys.org/resources**
 
 **http://www.math.uh.edu/~tomforde/gradstudents.html**
+
+**https://terrytao.wordpress.com/2008/08/07/on-time-management/**
