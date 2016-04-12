@@ -16,3 +16,4 @@ updated: 2016-03-11 23:51
 + [How to Become A Pure Mathematician](http://hbpms.blogspot.com.tr/){:target="_blank"}
 + [Math3ma](http://www.math3ma.com/){:target="_blank"}
 + [Researcher's Blog](https://aclinks.wordpress.com/){:target="_blank"}
++ [Sergei Yakovenko's Blog](https://yakovenko.wordpress.com/)
