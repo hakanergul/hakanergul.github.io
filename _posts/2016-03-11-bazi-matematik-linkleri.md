@@ -9,6 +9,7 @@ updated: 2016-03-11 23:51
 + [Cambridge Math. Dep.](https://www.dpmms.cam.ac.uk/study/){:target="_blank"}
 + [Oxford Mathematical Institute - Courses](http://www0.maths.ox.ac.uk/courses){:target="_blank"}
 + [The Archimedeans - Lecture Notes](http://www.archim.org.uk/notes.php){:target="_blank"}
++ [Yakup ARI Lecture Notes](http://www.oocities.org/yakupnotlar/)
 + [AMS Notices](http://ams.org/notices){:target="_blank"}
 + [AMS Grad Blog](http://blogs.ams.org/mathgradblog/){:target="_blank"}
 + [Terence Tao](https://terrytao.wordpress.com){:target="_blank"}
